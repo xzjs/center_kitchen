@@ -1,6 +1,7 @@
 <template>
     <div>
-        <el-button type="primary">主要按钮</el-button>
+        <img src="#">
+
     </div>
 </template>
 
@@ -16,3 +17,7 @@
         }
     }
 </script>
+
+<style scoped>
+
+</style>

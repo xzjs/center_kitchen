@@ -20,7 +20,6 @@
                     <span>|</span>
                     <span>会员注册</span>
                 </div>
-
             </div>
         </div>
     </div>
@@ -41,11 +40,14 @@
 
 <style scoped lang="scss">
     .bg {
-        background-image: url(/img/bg.png);
-        background-size: cover;
-
+        background: url(/img/bg.png) no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
         .mask {
             background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
             .logo {
                 text-align: center;
 
@@ -70,7 +72,7 @@
                 }
             }
             .login {
-                margin: 200px 15px;
+                margin: 100px 15px 150px 15px;
                 text-align: center;
                 color: white;
                 input {
@@ -85,9 +87,9 @@
                     margin: 10px 0;
                     border: 1px solid rgba(255, 255, 255, 0.4);
                 }
-                .sub{
+                .sub {
                     background-color: #F36100;
-                    margin:10px auto;
+                    margin: 10px auto;
                     width: 200px;
                     height: 35px;
                     font-size: 18px;

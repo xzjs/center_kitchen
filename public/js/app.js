@@ -33057,7 +33057,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\App.vue"
+Component.options.__file = "resources/assets/js/components/App.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -33162,7 +33162,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(129)
+  __webpack_require__(68)
 }
 var normalizeComponent = __webpack_require__(24)
 /* script */
@@ -33185,7 +33185,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\app\\Login.vue"
+Component.options.__file = "resources/assets/js/components/app/Login.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -33208,8 +33208,46 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 68 */,
-/* 69 */,
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(69);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(70)("13e70ded", content, false);
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0e9b9c46\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/sass-loader/lib/loader.js!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Login.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0e9b9c46\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/sass-loader/lib/loader.js!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Login.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(26)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\n.bg[data-v-0e9b9c46] {\n  background: url(/img/bg.png) no-repeat;\n  background-size: 100% 100%;\n  height: 100%;\n  width: 100%;\n}\n.bg .mask[data-v-0e9b9c46] {\n    background-color: rgba(0, 0, 0, 0.4);\n    width: 100%;\n    height: 100%;\n}\n.bg .mask .logo[data-v-0e9b9c46] {\n      text-align: center;\n}\n.bg .mask .logo .img[data-v-0e9b9c46] {\n        width: 100px;\n        height: 100px;\n        margin: 50px auto;\n}\n.bg .mask .title[data-v-0e9b9c46] {\n      text-align: center;\n}\n.bg .mask .title .words[data-v-0e9b9c46] {\n        margin: 0 auto;\n        color: #FFFFFF;\n        font-size: 40px;\n}\n.bg .mask .title .words .gradient[data-v-0e9b9c46] {\n          background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#E5D109), to(#F49A00));\n          -webkit-background-clip: text;\n          -webkit-text-fill-color: transparent;\n}\n.bg .mask .login[data-v-0e9b9c46] {\n      margin: 100px 15px 150px 15px;\n      text-align: center;\n      color: white;\n}\n.bg .mask .login input[data-v-0e9b9c46] {\n        font-size: 18px;\n        background-color: transparent;\n        width: 100%;\n        height: 28px;\n        text-align: center;\n        color: white;\n}\n.bg .mask .login hr[data-v-0e9b9c46] {\n        margin: 10px 0;\n        border: 1px solid rgba(255, 255, 255, 0.4);\n}\n.bg .mask .login .sub[data-v-0e9b9c46] {\n        background-color: #F36100;\n        margin: 10px auto;\n        width: 200px;\n        height: 35px;\n        font-size: 18px;\n        color: white;\n}\n.bg[data-v-0e9b9c46]:after {\n  background-color: black;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33469,7 +33507,6 @@ module.exports = function listToStyles (parentId, list) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
 //
 //
 //
@@ -70260,53 +70297,6 @@ module.exports = function (css) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */,
-/* 127 */,
-/* 128 */,
-/* 129 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(130);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(70)("13e70ded", content, false);
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0e9b9c46\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/sass-loader/lib/loader.js!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Login.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0e9b9c46\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/sass-loader/lib/loader.js!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./Login.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 130 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(26)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "\n.bg[data-v-0e9b9c46] {\n  background-image: url(/img/bg.png);\n  background-size: cover;\n}\n.bg .mask[data-v-0e9b9c46] {\n    background-color: rgba(0, 0, 0, 0.4);\n}\n.bg .mask .logo[data-v-0e9b9c46] {\n      text-align: center;\n}\n.bg .mask .logo .img[data-v-0e9b9c46] {\n        width: 100px;\n        height: 100px;\n        margin: 50px auto;\n}\n.bg .mask .title[data-v-0e9b9c46] {\n      text-align: center;\n}\n.bg .mask .title .words[data-v-0e9b9c46] {\n        margin: 0 auto;\n        color: #FFFFFF;\n        font-size: 40px;\n}\n.bg .mask .title .words .gradient[data-v-0e9b9c46] {\n          background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#E5D109), to(#F49A00));\n          -webkit-background-clip: text;\n          -webkit-text-fill-color: transparent;\n}\n.bg .mask .login[data-v-0e9b9c46] {\n      margin: 200px 15px;\n      text-align: center;\n      color: white;\n}\n.bg .mask .login input[data-v-0e9b9c46] {\n        font-size: 18px;\n        background-color: transparent;\n        width: 100%;\n        height: 28px;\n        text-align: center;\n        color: white;\n}\n.bg .mask .login hr[data-v-0e9b9c46] {\n        margin: 10px 0;\n        border: 1px solid rgba(255, 255, 255, 0.4);\n}\n.bg .mask .login .sub[data-v-0e9b9c46] {\n        background-color: #F36100;\n        margin: 10px auto;\n        width: 200px;\n        height: 35px;\n        font-size: 18px;\n        color: white;\n}\n.bg[data-v-0e9b9c46]:after {\n  background-color: black;\n}\n", ""]);
-
-// exports
-
 
 /***/ })
 ],[36]);
